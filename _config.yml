@@ -6,3 +6,30 @@ url: https://luisvf06.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# Navigation
+nav:
+  - title: "Sección 1: SSH"
+    url: /seccion-1-ssh
+    children:
+      - title: "Conexión remota y SSH"
+        url: /seccion-1-ssh/conexion-remota-ssh
+
+  - title: "Sección 2: Herramientas de despliegue"
+    url: /seccion-2-herramientas
+
+  - title: "Sección 3: Servidor Apache"
+    url: /seccion-3-apache
+    children:
+      - title: "Apache"
+        url: /seccion-3-apache/introduccion-docker
+
+  - title: "Sección 4: Apache Tomcat"
+    url: /seccion-4-tomcat
+
+
+  - title: "Sección 5: DNS"
+    url: /seccion-5-dns
+    children:
+      - title: "DNS"
+        url: /seccion-5-DNS/DNS
