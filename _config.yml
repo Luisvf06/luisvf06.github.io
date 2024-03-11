@@ -1,8 +1,6 @@
 title: Despliegue de Asignaturas Web
 description: Contenido de la asignatura de Despliegue de Aplicaciones web, de 2º de DAW
-theme: just-the-docs
-
-
+remote_theme: just-the-docs/just-the-docs
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
@@ -17,19 +15,32 @@ nav:
 
   - title: "Sección 2: Herramientas de despliegue"
     url: /seccion-2-herramientas
+    children:
+      - title: "Introducción a Docker para desarrolladores"
+        url: /seccion-2-herramientas/introduccion-docker
+      - title: "Ejecutando y gestionando contenedores"
+        url: /seccion-2-herramientas/ejecutando-contenedores
+      - title: "Gestión de imágenes"
+        url: /seccion-2-herramientas/gestion-imagenes
+      # Añadir el resto de las subsecciones de la sección 2 aquí
 
   - title: "Sección 3: Servidor Apache"
     url: /seccion-3-apache
     children:
-      - title: "Apache"
-        url: /seccion-3-apache/introduccion-docker
+      - title: "Servidor Apache"
+        url: /seccion-3-apache/servidor-apache
+      # Añadir más subsecciones si son necesarias
 
   - title: "Sección 4: Apache Tomcat"
     url: /seccion-4-tomcat
-
+    children:
+      - title: "Apache Tomcat"
+        url: /seccion-4-tomcat/apache-tomcat
+      # Añadir más subsecciones si son necesarias
 
   - title: "Sección 5: DNS"
     url: /seccion-5-dns
     children:
-      - title: "DNS"
-        url: /seccion-5-dns/DNS
+      - title: "Servicios de nombres de dominio"
+        url: /seccion-5-dns/servicios-nombres-dominio
+      # Añadir más subsecciones si son necesarias
