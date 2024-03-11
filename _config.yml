@@ -1,8 +1,8 @@
 title: Despliegue de Asignaturas Web
 description: Contenido de la asignatura de Despliegue de Aplicaciones web, de 2º de DAW
-theme: just-the-docs
+theme: 
 
-url: https://luisvf06.github.io
+
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
